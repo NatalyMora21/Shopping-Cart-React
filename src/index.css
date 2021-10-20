@@ -11,3 +11,77 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+h1{
+  text-align: center;
+}
+.main-header{
+  background-color: rgba(185, 10, 10, 0.219);
+}
+.title{
+  font-size: 30px !important;
+}
+.container{
+  width: 1500px !important;
+  height: 850px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: antiquewhite
+}
+.brand-heading{
+  width: 700px;
+  height: 30px;
+  background-color: #150550;
+  color: white;
+  text-align: center;
+  float: right;
+  margin-top: 10%;
+  margin-right: 50px;
+}
+.shopping-list{
+  width: 700px;
+  height: 250px;
+  text-align: center;
+  float: right;
+  margin-top: 10%;
+  margin-right: 50px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.shopping-cart{
+  width: 700px;
+  height: 350px;
+  margin-top: 10px;
+  margin-right: 50px;
+  text-align: center;
+  float: right;
+  border: 5px dashed #d9d9d9;
+  border-radius: 10px;
+  padding: 5rem 2rem;
+  background-color: rgba(49, 209, 9, 0.137);
+}
+.phone{
+  display: inline-block !important;
+  width: 10rem !important;
+  margin: 0 1em 1em 0.25em !important;
+  padding: .5em !important;
+  cursor: pointer;
+  background: #f7f7f7 !important;
+  
+}
+.mycart-header{
+  margin-top: 20px !important;
+  color: rgb(238, 248, 240); 
+  background-color: #150550;
+}
+.my-cart{
+  text-align: left;
+  margin-top: 100px;
+  border: 5px solid #d9d9d9;
+}
+.cart-item{
+  float: right;
+}
+.meta{
+  font-size: 8px !important;
+}
